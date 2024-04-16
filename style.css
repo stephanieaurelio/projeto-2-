@@ -17,4 +17,15 @@ body{
     font-family: "open-sans";
     background-color: var(--fundo-café);
     color: var(--texto);
+
+}
+header{
+  display: flex; 
+}
+
+.nav-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }

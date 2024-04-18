@@ -15,12 +15,15 @@
 body{
     margin: 0;
     font-family: "open-sans";
-    background-color: var(--fundo-café);
+    background-color:var(--fundo-banda);
     color: var(--texto);
 
 }
 header{
-  display: flex; 
+  display: inline-block; 
+  width: 100%;
+  position: relative;
+
 }
 
 .nav-header{
@@ -28,5 +31,10 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    position: absolute;
 }
-
+.img-header{
+    width: 100%;
+    position: relative;
+    
+}

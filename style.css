@@ -22,19 +22,32 @@ body{
 header{
   display: inline-block; 
   width: 100%;
-  position: relative;
+  position: relative
+
 
 }
 
 .nav-header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
     position: absolute;
+    text-align: center;
 }
 .img-header{
-    width: 40%;
-    position: relative;
-    
+    width: 1600px;
+    height: 900px;
+    top: 2px;
+    gap: 0px;
+    opacity: 0px;
+
 }
+
+.titulo-header{
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: var(--branco);
+
+
+}
+
